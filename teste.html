@@ -1,0 +1,54 @@
+<div class="flex-container">
+    <div class="box">
+        <!-- <img src="./vita.png" id="main-img" alt=""> -->
+        <a href="/it" class="flag">
+            <img src="./it.png" alt="">
+        </a>
+
+        <a href="/en" class="flag">
+            <img src="./en.png"  alt="">
+        </a>
+
+        <a href="/pt" class="flag">
+            <img src="./pt.png" alt="">
+        </a>
+    </div>
+</div>
+
+<style>
+    body {
+        background-color: forestgreen;
+        margin: 0;
+        padding: 0;
+    }
+
+    .flex-container {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box {
+        width: 500px;
+        height: 500px;
+        background-color: white;
+        background-image: url("vita.png");
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+
+        animation: fadein 2s;
+        flex: 0 0 500px;
+    }
+
+    .box .flag {
+        animation: fadein 4s;
+        margin: 70px 7px;
+    }
+
+    @keyframes fadein {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+</style>
