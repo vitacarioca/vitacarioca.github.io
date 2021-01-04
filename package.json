@@ -1,0 +1,25 @@
+{
+  "name": "vitacarioca.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sassbuild": "node-sass ./css -o ./css",
+    "sassmon": "node-sass -w ./css -o ./css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitacarioca/vitacarioca.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitacarioca/vitacarioca.github.io/issues"
+  },
+  "homepage": "https://github.com/vitacarioca/vitacarioca.github.io#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
