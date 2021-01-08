@@ -8,7 +8,9 @@ a {
 }
 
 body {
-  background-color: #159731;
+  background-image: linear-gradient(to right, rgba(94, 255, 0, 0.623), rgba(5, 255, 109, 0.623));
+  background-size: cover;
+  background-position: center;
   display: grid;
   place-items: center;
   height: 100vh;
