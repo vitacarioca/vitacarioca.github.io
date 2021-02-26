@@ -41,6 +41,13 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.img-cropped {
+  object-fit: cover;
+  object-position: center;
+  width: 330px;
+  height: 220px;
+}
+
 *,
 *::before,
 *::after {
